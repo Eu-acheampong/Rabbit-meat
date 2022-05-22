@@ -1,0 +1,105 @@
+* {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+  padding: 25;
+}
+.header {
+  display: flex;
+  background-color: rgb(184, 238, 220);
+  padding: 20px;
+  height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.back-drop {
+  background-image: url("./stock.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+
+.logo {
+  background-color: rgb(234, 221, 221);
+  height: 40px;
+}
+#moon {
+  color: azure;
+}
+
+nav {
+  display: flex;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  gap: 50p;
+  font-size: 19px;
+}
+.second-section {
+  background-color: aquamarine;
+  height: 500;
+  padding: 50;
+  text-align: center;
+}
+#line {
+  width: 120;
+  margin: 0;
+  border: none;
+  height: 3px;
+  background-color: azure;
+}
+.three-pics > img {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  width: 100%;
+  padding: 10px;
+  margin-top: 35px;
+}
+.three-pics > img {
+  height: 19rem;
+  width: 19rem;
+  border-radius: 50%;
+}
+
+.third-section {
+  height: 70vh;
+  width: 100;
+  border: 1px snow;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.our-story {
+  height: 65vh;
+  width: 50%;
+  border: 1px aqua;
+  background-color: bisque;
+  padding: 15px;
+}
+.single {
+  height: 70vh;
+  width: 50%;
+  border: 1px ghostwhite;
+  background-color: aqua url("./grilled\ rabbit\ two.jpg");
+}
+
+#line2 {
+  width: 10px;
+  margin: 0 auto;
+  border: none;
+  height: 2px;
+  background-color: white;
+}
+.our-story {
+  padding: 20px;
+}
